@@ -31,7 +31,7 @@ greetUsers()
 
 	for { // remainingTickets > 0
 			firstName, lastName, email, userTickets := getUserInput()
-			isValidName, isValidEmail, isValidTicketNumber := ValidateUserInput(firstName, lastName, email, userTickets, remainingTickets)
+			isValidName, isValidEmail, isValidTicketNumber := validateUserInput(firstName, lastName, email, userTickets, remainingTickets)
 			// isValidCity := city == "singapore" || city == "London"
 			// isInvalidCity := city != "Singapore" && city != "London"
 
